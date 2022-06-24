@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <WebView
+
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hardwareAccelerated ="true"
+        >
+
+
+    </WebView>
+
+
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="0dp"
+            android:layout_y="-4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/du4" />
+    <!--
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_start_pause"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+-->
+
+    <TextView
+        android:id="@+id/text_view_countdown2"
+        android:layout_width="206dp"
+        android:layout_height="89dp"
+        android:background="@drawable/background"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/_00_002"
+        android:textColor="#46E3D3"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/button_start_pause"
+        android:layout_width="113dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/Start"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/buttonhunn"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/buttonhunn"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/buttonhunnmaina"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/buttonhunnmaina"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/buttonjikannpura"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/buttonjikapu"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/buttonbyoumaina"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/buttonbyoumaina"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonjikannmaina"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/buttun_round"
+        android:text="@string/buttonjikamai"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/buttun_round"
+        android:text="@string/reset"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        android:textColorHighlight="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/buttonriseto0"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/button0"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:background="@drawable/buttun_round"
+        android:id="@+id/buttonbyou"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/buttonbyou"
+        android:textSize="20sp"
+        app:backgroundTint="#AE2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="329dp"
+        android:layout_height="110dp"
+        android:text="@string/_00_00"
+        android:textColor="@color/white"
+        android:textSize="85sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextClock
+
+        android:id="@+id/tokei"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-light"
+        android:format12Hour="yyyy/MM/dd"
+        android:format24Hour="yyyy/MM/dd"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:timeZone="Asia/Tokyo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <DigitalClock
+        android:id="@+id/tokei3"
+        android:layout_width="145dp"
+        android:layout_height="94dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tokei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintStart_toStartOf="@+id/tokei"
+        app:layout_constraintTop_toBottomOf="@+id/tokei"
+        app:layout_constraintVertical_bias="0.489"
+        tools:ignore="MissingConstraints" />
+
+    <TextClock
+        android:id="@+id/tokei2"
+        android:layout_width="247dp"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-light"
+        android:format12Hour="hh:mm:ss"
+        android:format24Hour="HH:mm:ss"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:timeZone="GMT+900"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tokei"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
